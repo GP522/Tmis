@@ -1,1 +1,77 @@
-/* You can add global styles to this file, and also import other style files */
+.top-bar {
+    min-height: auto;
+    background: #F1F1F1;
+    padding: 5px 0;
+    font-family: "Roboto", sans-serif;
+}
+.flexcols {display: flex;align-items: center;justify-content: space-between;}
+.top-logo img{height: 40px; margin-right:8px ;}
+.top-logo span{color: #545454; text-decoration: none; font-size: 14px; font-weight: 300;}
+
+ul.main-header-list {display: flex;align-items: center;justify-content: space-between;gap: 0px 15px;list-style: none;margin: 0px; padding: 0px;}
+ul.main-header-list li a, span{color: #545454; text-decoration: none; font-size: 14px; font-weight: 300;}
+
+.header-innner {background: #fff;
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .15);
+    -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, .15);
+    -ms-box-shadow: 0 3px 5px rgba(0, 0, 0, .15);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .15);
+}
+
+
+#header{position: absolute; top: 0px; left: 0px; right: 0px; width: 100%;z-index: 99; padding-top: 20px;}
+.navbar-expand-lg .navbar-collapse{justify-content: end;}
+.header-menu .navbar-dark{background: transparent; border-radius: 6px; box-shadow: 0px 0px 10px #cccccc0f; padding:10px 0px;} 
+
+.header-menu .navbar-nav li.active a{color: #244e89 ; font-weight: 600;}
+.header-menu .navbar-nav li a:hover{color: #024728;} 
+a.navbar-brand img {height: 50px;}
+
+.header-menu .navbar-nav li a {position: relative; color: #545454;text-decoration: none;padding: 0px 10px;display: inline-block;font-size: 16px; font-weight: 400;
+}
+.header-menu .navbar-nav li a::before {
+    content: "";
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    transform: scaleX(0);
+    position: absolute !important;
+    transition: transform 0.25s ease, -webkit-transform 0.25s ease;
+    height: 1px;
+    background: #244e89;
+    z-index: 10;
+}
+
+.header-menu .navbar-nav li a:hover::before {
+    transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+}
+
+.tell_us a.btn{background: #22509e; color: #fff;border-radius: 3px;padding: 5px 15px; font-weight: 400; font-size: 16px; margin-left: 20px;}
+
+.navbar-toggler{position: relative; top: -5px; padding: 0px;}
+
+.menu-icon {cursor: pointer;display: inline-block;position: relative;user-select: none;}
+.menu-icon .navicon {background: #333;display: block;height: 2px;position: relative;transition: background .2s ease-out;width: 18px;}
+.menu-icon .navicon:before,
+.menu-icon .navicon:after {background: #333;content: '';display: block;height: 100%;position: absolute;transition: all .2s ease-out;width: 100%;}
+ .menu-icon .navicon:before {top: 5px;}
+.menu-icon .navicon:after {top: -5px;}
+
+
+
+
+
+.banner {background: url(/assets/img/bannerfour.png);position: relative;overflow: hidden;background-repeat: no-repeat;background-position: 50% 50%;background-size: cover;padding: 120px 0px;}
+.mb2slides-description h4{color: #fff; font-size: 35px; font-weight: 600;}
+.mb2slides-description p span{color: #fff; font-size: 16px; font-weight: 400;}
+
+
+
+.copyright{ padding: 10px 0px;  text-align: center;    border-top: 1px solid #7A7A7A; position: fixed; bottom: 0px; width: 100%; left: 0px; right: 0px;   -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .15);
+    -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, .15);
+    -ms-box-shadow: 0 3px 5px rgba(0, 0, 0, .15);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .15);}
+.copyright p{color: #545454; font-size: 16px; font-weight: 500; margin: 0px;}
+
+

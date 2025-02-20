@@ -1,0 +1,63 @@
+
+.loginwraper {
+    width: 100%;
+    padding: 170px 0;
+    text-align: center;
+}
+.form-control{height: 45px;}
+.loginwraper .logincard {
+    width: 90%;
+    max-width: 550px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    margin:  0 auto;
+}
+.logincaptcha {
+    position: relative;
+}
+
+.login1000-form-btn {
+    min-width: 43px;
+    height: 43px;
+    padding: 0px;
+    max-width: 43px;
+    border-radius: 6px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+}
+.captcha-refresh{display: flex; align-items: center; justify-content: space-between;}
+.captcha-refresh p {text-align: center;
+    font-size: 30px;
+    margin: 0px;
+    background: #f4f4f4;
+    width: 75%;
+    height: 45px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0px 10px;
+}
+
+
+input.login100-form-btn {
+    background: #22509E;
+    border: 0px;
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.lgforgot {text-decoration: none;
+    font-size: 14px;
+    color: #000;
+    padding: 10px 0;
+    display: inline-block;
+}
