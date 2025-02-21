@@ -4,7 +4,8 @@
     padding: 170px 0;
     text-align: center;
 }
-.form-control{height: 45px;}
+.form-control{height: 45px; margin-bottom: 20px;}
+.logincard span{top: -18px; position: relative;}
 .loginwraper .logincard {
     width: 90%;
     max-width: 550px;
